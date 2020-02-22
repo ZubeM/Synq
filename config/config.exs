@@ -16,7 +16,7 @@ config :synq, SynqWeb.Endpoint,
   secret_key_base: "s93zUxy0sMBSaIh8snkAljZ/tdYMbF8bvQWuDZ3wlKpbxd/OpXYI50ISTx5vsjjy",
   render_errors: [view: SynqWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Synq.PubSub, adapter: Phoenix.PubSub.PG2],
-  live_view: [signing_salt: "8sZUT/Fv"]
+  live_view: [signing_salt: "TNHgcTPTY4bk3Bx+WU4ik62B5XEZzkm7"]
 
 # Configures Elixir's Logger
 config :logger, :console,
